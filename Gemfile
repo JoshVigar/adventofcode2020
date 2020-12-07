@@ -4,9 +4,9 @@ source 'https://rubygems.org'
 
 ruby '2.7.0'
 
-gem 'faraday'
+gem 'json'
 
 group :development, :test do
-  gem 'byebug', '11.1.3'
+  gem 'byebug', '11.1.3', require: true
   gem 'rubocop', '0.83.0'
 end

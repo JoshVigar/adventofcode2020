@@ -53,4 +53,4 @@ p "Trees for across 3 down 1: #{two = Toboggan.new.go(3, 1)}"
 p "Trees for across 5 down 1: #{three = Toboggan.new.go(5, 1)}"
 p "Trees for across 7 down 1: #{four = Toboggan.new.go(7, 1)}"
 p "Trees for across 1 down 2: #{five = Toboggan.new.go(1, 2)}"
-p one*two*three*four*five
+p one * two * three * four * five
